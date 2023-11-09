@@ -1,0 +1,46 @@
+:root{
+    --primary-color:#273A50;
+    --white:#FFFFFF;
+    --pale-primary:#7E92AB99;
+    --glass: #3E5774A6;
+    --error:#CB1D02;
+    --input: #BBC9D9;
+    --white20: rgba(255,255,255,20%);
+    --base-size:1rem;
+    --scale:1.333;
+    --h5: calc(var(--base-size)* var(--scale));
+    --h4: calc(var(--h5) * var(--scale));
+    --h3: calc(var(--h4) * var(--scale));
+    --h2: calc(var(--h3) * var(--scale));
+    --h1: calc(var(--h2) * var(--scale));
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, *,*::after,*::before{
+    box-sizing: border-box;
+}
+
+
+#main{
+    height:39.4375rem;
+    background-color: var(--primary-color);
+    padding-top: 1.5rem;
+    padding-right: 3.75rem;
+}
+
+.Button{
+    transform: translate(68rem);
+    width: 12.5rem;
+    height: 3.75rem;
+    display: grid;
+    place-content: center;
+    background-color: var(--white20);
+    backdrop-filter:blur(2px);
+    border: 0;
+    border-radius: 0.5rems;
+    color: var(--white) ;
+
+}
